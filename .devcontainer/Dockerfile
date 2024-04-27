@@ -6,7 +6,7 @@
 # Sorry, I've not got automatic arm64 builds sorted
 ARG PLATFORM=x86_64
 
-# Pull the latest z88dk, change as an approrpiate tag
+# Pull the latest z88dk, change the tag as appropriate
 FROM --platform=$PLATFORM  z88dk/z88dk:latest AS z88dk
 
 # Our base is alpine vscode variant
